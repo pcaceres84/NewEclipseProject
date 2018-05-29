@@ -1,0 +1,35 @@
+<suite name="TestSuite">
+	<test name="example test" preserve-order="true">
+		<classes>
+			<class name="testNGClass.TestingNGInClassPracticeFour">
+				<methods>
+					<include name="program1" />
+					<include name="program2" />
+					<include name="program3" />
+				</methods>
+			</class>
+
+
+			<class name="testNGClass.TestNGPractice">
+				<methods>
+					<include name="sum" />
+					<include name="subtract" />
+					<include name="div" />
+					<include name="multi" />
+				</methods>
+			</class>
+
+
+			<class name="testNGClass.TestNGPracticeTwo">
+				<methods>
+					<include name="bProgram" />
+					<include name="aProgram" />
+					<include name="cProgram" />
+				</methods>
+			</class>
+
+
+
+		</classes>
+	</test>
+</suite>

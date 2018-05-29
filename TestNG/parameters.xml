@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters Exercise">
+	<test name="Exercise" preserve-order="true">
+		<parameter name="username" value="admin"></parameter>
+		<parameter name="password" value="admin"></parameter>
+		<parameter name="firstname" value="Pedro"></parameter>
+		<parameter name="middlename" value="A"></parameter>
+		<parameter name="lastname" value="Caceres"></parameter>
+		<classes>
+			<class name="testNGClass.parameterXML">
+				<methods>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+				
+				
+				
+			
+

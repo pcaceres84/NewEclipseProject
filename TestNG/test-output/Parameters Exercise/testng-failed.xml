@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameters Exercise]">
+  <test thread-count="5" name="Exercise(failed)">
+    <parameter name="username" value="editor1"/>
+    <classes>
+      <class name="testNGClass.parameterXML">
+        <methods>
+          <include name="param"/>
+        </methods>
+      </class> <!-- testNGClass.parameterXML -->
+    </classes>
+  </test> <!-- Exercise(failed) -->
+</suite> <!-- Failed suite [Parameters Exercise] -->
